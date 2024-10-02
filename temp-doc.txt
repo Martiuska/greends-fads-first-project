@@ -17,7 +17,8 @@ We didn't use git init because the repository was already initialized and what w
 to clone from GitHub using gitclone
 
 
-Can you commit the files copied? What do you need to do? 
+5.3. Can you commit the files copied? What do you need to do? 
 Execute the commands that are needed.
+
 Yes, it can be done and a message can be added describing what I have done. 
 After this I need to push the files to the remote repository on GitHub
