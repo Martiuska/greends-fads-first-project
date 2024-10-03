@@ -5,20 +5,24 @@ The three files below:
 temp-average.py
 temp-data.csv
 temp-doc.txt
-are present on the directory my-first-project and I should copy those on the current directory. 
-Moreover, the files are start eith temp-, that's why I use this command (*)
-. rpresentes the current directory. 
+are present on the directory my-first-project and I should copy those on 
+the current directory. 
+Moreover, if all the files start with temp-, it's easier to use this command (*)
+. representes the current directory. 
 
 
 
 5.2. Can you explain why, in this case, we did not have to do git init?
 
-We didn't use git init because the repository was already initialized and what we did was
-to clone from GitHub using gitclone
+We didn't use git init because the repository was already initialized and what 
+we did was to clone from GitHub using gitclone.
 
 
 5.3. Can you commit the files copied? What do you need to do? 
 Execute the commands that are needed.
 
 Yes, it can be done and a message can be added describing what I have done. 
-After this I need to push the files to the remote repository on GitHub
+After this I need to push the files to the remote repository on GitHub. 
+Before committing we should added the files to the staging area using 
+"git add temp-*", then we should use "git commit -m" with the description 
+I talked about before.
