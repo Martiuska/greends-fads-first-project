@@ -1,4 +1,4 @@
-5.1. Can you explain Can you explain the copy (cp ../temp-* .) command used above?
+5.1. Can you explain the copy (cp ../temp-* .) command used above?
 
 This command is used to copy files from one directory to another. 
 The three files below:
@@ -8,14 +8,14 @@ temp-doc.txt
 are present on the directory my-first-project and I should copy those on 
 the current directory. 
 Moreover, if all the files start with temp-, it's easier to use this command (*)
-. representes the current directory. 
+"." representes the current directory. 
 
 
 
 5.2. Can you explain why, in this case, we did not have to do git init?
 
 We didn't use git init because the repository was already initialized and what 
-we did was to clone from GitHub using gitclone.
+we did was to clone from GitHub using "gitclone".
 
 
 5.3. Can you commit the files copied? What do you need to do? 
